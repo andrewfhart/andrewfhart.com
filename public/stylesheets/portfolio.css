@@ -1,0 +1,10 @@
+.box#briefHistory{min-height:0}
+h4{background-color:#ccc;padding:7px 5px;margin-bottom:5px;border-radius:3px;color:#333}
+.box.tech ul{margin-left:20px;font-size:1.2em;font-style:italic;color:#454545}
+.box.gallery ul{list-style:none;margin-top:15px}
+.box.gallery ul li{float:left}
+.box.gallery ul li img{width:180px;margin-right:10px}
+.box.gallery img.feature{margin-bottom:25px}
+.box.gallery img.feature.thumbnail{max-width:590px}
+.box.gallery img.thumbnail{margin-bottom:20px}
+.box.contrib em{background-color:#de8;font-style:normal}

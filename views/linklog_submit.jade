@@ -1,0 +1,41 @@
+link(rel='stylesheet', href='/stylesheets/pubs.css')
+
+
+.section
+
+  .row
+    .span12
+      ul.breadcrumb
+        li
+          a(href='/') Home 
+          span.divider /
+        li Linklog
+
+  .row
+    .span4
+      .box
+        h3 About Linklog
+        :markdown
+          You can use the linklog bookmarklet in your browser to
+          submit interesting content to the linklog. 
+          
+          Or, [search existing links](/linklog/search)
+          
+          You can bookmark the following bookmarklet to make it easier
+          to add links. Simply right-click and select "Bookmark this Link".
+          
+        a(href="javascript:function%20ll2(){var%20d=document,b=d.body,l=d.location,t=d.title;try{if(!b)throw(0);document.location.href=l.protocol+'//www.andrewfhart.com:3017/linklog/submit/%27+encodeURIComponent(l.href)+%27/%27+encodeURIComponent(t);%7Dcatch(e)%7Balert(%27Please%20wait%20until%20the%20page%20has%20loaded.%27);%7D%7Dll2();void(0)") LinkLog
+        
+    .span8
+      .box
+        h3 Submit a Link
+          form(method='POST',action='/linklog/submit')
+            label Link URL:
+            input(type='text',name='url',placeholder='Paste a link here...',value=url)
+            label Comment:
+            input(type='text',name='comment',placeholder='Add a comment here...')
+            label Tags:
+            input(type='text',name='tags',placeholder='Add comma-separated tags here')
+            input(type='hidden',name='title',value=pageTitle)
+            input.btn(type='submit',value='Submit!')
+
