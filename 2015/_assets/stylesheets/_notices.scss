@@ -1,0 +1,85 @@
+/* ==========================================================================
+   NOTICE TEXT BLOCKS
+   ========================================================================== */
+
+/**
+ * Example Kramdown usage:
+ * This is a paragraph of MarkDown text.
+ * {: .notice}
+ *
+ * HTML example usage:
+ * <p class="notice">This is a paragraph of text.</p>
+ */
+
+@mixin notice($notice-color) {
+  position: relative;
+  padding: $gutter;
+  @include font-size(14, no);
+  background-color: mix($white, $notice-color, 80%);
+  border-radius: 2 * $border-radius
+}
+
+/* Default notice */
+
+.notice {
+  @include notice($primary-color);
+  @at-root .page-content #{&} a {
+    color: $primary-color;
+    border-bottom-color: $primary-color;
+  }
+}
+
+/* Inverse notice (light on dark) */
+
+.notice-inverse {
+  @include notice($white);
+  color: $text-color;
+  @at-root .page-content #{&} a {
+    color: $text-color;
+    border-bottom-color: $text-color;
+  }
+}
+
+/* Info notice */
+
+.notice-info {
+  @include notice($info-color);
+  color: mix($black, $info-color, 50%);
+  @at-root .page-content #{&} a {
+    color: mix($black, $info-color, 50%);
+    border-bottom-color: mix($black, $info-color, 50%);
+  }
+}
+
+/* Warning notice */
+
+.notice-warning {
+  @include notice($warning-color);
+  color: mix($black, $warning-color, 50%);
+  @at-root .page-content #{&} a {
+    color: mix($black, $warning-color, 50%);
+    border-bottom-color: mix($black, $warning-color, 50%);
+  }
+}
+
+/* Success notice */
+
+.notice-success {
+  @include notice($success-color);
+  color: mix($black, $success-color, 50%);
+  @at-root .page-content #{&} a {
+    color: mix($black, $success-color, 50%);
+    border-bottom-color: mix($black, $success-color, 50%);
+  }
+}
+
+/* Danger notice */
+
+.notice-danger {
+  @include notice($danger-color);
+  color: mix($black, $danger-color, 50%);
+  @at-root .page-content #{&} a {
+    color: mix($black, $danger-color, 50%);
+    border-bottom-color: mix($black, $danger-color, 50%);
+  }
+}

@@ -1,0 +1,308 @@
+/* ==========================================================================
+   PAGE
+   ========================================================================== */
+
+/*
+   Main content
+   ========================================================================== */
+
+.page-content {
+  h2 {
+    @include font-size(24,yes,26);
+    @include media($small) {
+      @include font-size(28,yes,32);
+    }
+  }
+  h3 {
+    @include font-size(20,yes,22);
+    @include media($small) {
+      @include font-size(24,yes,26);
+    }
+  }
+  h4 {
+    @include font-size(18);
+    @include media($small) {
+      @include font-size(22);
+    }
+  }
+
+  /* Cleaner underlines for links */
+  a { text-decoration: none; }
+  p > a,
+  li > a,
+  td > a {
+    border-bottom: 1px solid mix($white, $link-color, 70%);
+    &:hover {
+      border-bottom-color: $link-color;
+      border-bottom-width: 2px;
+    }
+  }
+  .toc li > a {
+    border-bottom-width: 0;
+  }
+  .th-grid a,
+  .th-grid-full a,
+  p > .reversefootnote {
+    border-bottom-width: 0;
+  }
+
+  /* Introductory paragraph */
+  > p {
+    &:first-child {
+      @include media($small) {
+        @include font-size(20,yes,30);
+      }
+      a {
+        color: $text-color;
+        border-bottom-color: mix($white, $text-color, 70%);
+      }
+    }
+  }
+
+  .page-footer,
+  .pagination {
+    @include fill-parent;
+  }
+}
+
+/*
+   Post archives
+   ========================================================================== */
+
+.archive-wrap {
+  @include fill-parent;
+  margin-top: $gutter;
+  h3 {
+    @include font-size(16);
+    text-transform: uppercase;
+    a {
+      color: $text-color;
+    }
+  }
+  .page-content {
+    @include fill-parent;
+  }
+}
+
+/*
+   Default page title
+   ========================================================================== */
+
+
+.page-title {
+  @include fill-parent;
+  h1 { /* Default page title */
+    margin-top: 0;
+    margin-bottom: 0;
+    @include font-size(24,no,24);
+    @include media($small) {
+      @include font-size(42,no,42);
+    }
+    @include media($medium) {
+      @include font-size(58,no,58);
+    }
+  }
+  h2 { /* Default page sub-headline */
+    margin-top: 0;
+    font-weight: 400;
+    @include font-size(20,yes,1.25);
+    @include media($small) {
+      @include font-size(28,yes,1.25);
+    }
+    @include media($medium) {
+      @include font-size(32,yes,1.25);
+    }
+  }
+}
+
+/*
+   Featured page header (large image with text overlay)
+   ========================================================================== */
+
+.page-feature-header {
+  @include fill-parent;
+  position: relative;
+  margin-bottom: $gutter;
+  img {
+    width: 100%; /* Expand image to cover full width of header */
+  }
+  &.overlay .page-title { /* Position title on top of feature image */
+    @include media($small) {
+      position: absolute;
+      bottom: 0;
+      z-index: 1;
+      @include span-columns(10);
+      padding-bottom: 2 * $gutter;
+    }
+  }
+  &.overlay h1 { /* Overlay page title */
+    @include media($small) {
+      color: $white;
+      text-shadow: 1px 1px 0 $black;
+    }
+  }
+  &.overlay h2 { /* Overlay page sub-headline */
+    margin-bottom: 0;
+    @include media($small) {
+      color: $white;
+      text-shadow: 1px 1px 0 $black;
+    }
+  }
+}
+
+.page-image { /* Make content images flush with edges on small screens */
+  position: relative;
+  margin-top: -1 * $gutter; /* Match .wrap padding */
+  margin-left: -1 * $gutter;
+  margin-right: -1 * $gutter;
+  @include media($medium) {
+    margin-top: -2 * $gutter; /* Match .wrap padding */
+    margin-left: -2 * $gutter;
+    margin-right: -2 * $gutter;
+  }
+  @include media($large) {
+    margin-top: -1.25 * $gutter; /* Match .wrap padding */
+    margin-left: -2.5 * $gutter;
+    margin-right: -2.5 * $gutter;
+  }
+
+  .image-credit { /* Position and style image credit caption */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 10px 15px;
+    background-color: rgba($black,.5);
+    color: $white;
+    font-family: $alt-font;
+    @include font-size(12,no);
+    text-align: right;
+    z-index: 10;
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}
+
+/* Feature image overlay override */
+
+.overlay .page-image {
+  &:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* add gradient overlay on >= medium screens */
+    @include media($small) {
+      @include background-image(linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 75%,rgba(0,0,0,0.9) 100%));
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#e6000000',GradientType=0 ); /* IE6-9 */
+      transition: opacity 1s ease-in-out 0.2s;
+    }
+  }
+}
+
+/*
+   Headline anchors (show link icon on hover)
+   ========================================================================== */
+
+.header-link {
+  position: relative;
+  left: 0.5em;
+  opacity: 0;
+  font-size: 0.8em;
+  transition: opacity 0.2s ease-in-out 0.1s;
+  display: none;
+  @include media($medium) {
+    display: inline;
+  }
+}
+
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link,
+h6:hover .header-link {
+  opacity: 1;
+}
+
+/*
+   Tag links
+   ========================================================================== */
+
+.tag-box {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  @include clearfix;
+  li {
+    display: inline-block;
+    @include font-size(14, 7);
+  }
+  a {
+    padding: 4px 6px;
+    margin-right: 2px;
+    text-decoration: none;
+    color: $text-color;
+    background-color: mix($white, $primary-color, 90%);
+    border-radius: $border-radius;
+    border-bottom-width: 0 !important;
+    span {
+      vertical-align: super;
+      color: $link-color;
+      @include font-size(10);
+    }
+  }
+}
+
+/*
+   Page footer (author details, social share links, etc)
+   ========================================================================== */
+
+.page-footer {
+  position: relative;
+}
+
+/* Author details */
+
+.author-image {
+  position: absolute;
+  left: 0;
+  img {
+    width: 80px;
+    height: 80px;
+    border-radius: $border-radius;
+  }
+}
+
+.author-content {
+  word-wrap: break-word;
+  padding-left: 100px; /* avatar width + 20px padding */
+  min-height: 80px; /* match avatar height */
+}
+
+h3.author-name {
+  @include font-size(20,no);
+}
+
+.author-bio {
+  margin-top: 0;
+  @include font-size(16,12);
+}
+
+.author-follow {
+  margin-top: 0;
+  @include font-size(16);
+}
+
+/*
+   Comments
+   ========================================================================== */
+
+.comments {
+  h3 {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,19 @@
+# Ignore Jekyll-compiled assets
+_site
+
+# Ignore OS and editor detritus
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+codekit-config.json
+node_modules
+_asset_bundler_cache
+.sass-cache
+.jekyll-assets-cache
+
+# Ignore third party dependencies
+vendor
+
+#
+# Ignore images directory (will pull in separately)
+images

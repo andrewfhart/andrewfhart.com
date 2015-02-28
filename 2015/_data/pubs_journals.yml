@@ -1,0 +1,56 @@
+- title: Cloud Computing and Virtualization Within the Regional Climate Model and Evaluation System.
+  venue: Earth Science Informatics
+  url: 
+  attrib: "C. Mattmann, D. Waliser, J. Kim, C. Goodale, A. Hart, P. Ramirez, D. Crichton, P. Zimdars, M. Boustani, H. Lee, P. Loikith, K. Whitehall, C. Jack, B. Hewitson."
+  image: earthsciinformatics.jpg
+  extra: "July, 2013"
+
+- title: Evaluation of the surface climatology over the conterminous United States in the North American Regional Climate Change Assessment Program hindmost experiment using regional climate model evaluation system.
+  venue: Journal of Climate
+  url:
+  attrib: "J. Kim, D. Waliser, C. Mattmann, L. Mearns, C. Goodale, A. Hart, D. Crichton, S. McGinnis, M. Boustani, H. Lee, P. C. Loikith and M. Boustani."
+  image: journalclimate.jpg
+  extra: Volume 26 Issue 15. August 2013.
+
+- title: "Evaluation of the CORDEX-Africa multi-RCM Hindcast: Systematic Model Errors."
+  venue: Climate Dynamics
+  url:
+  attrib: "J. Kim, D. E. Waliser, C. Mattmann, C. Goodale, A. Hart, P. Zimdars, D. Crichton, C. Jones, G. Nikulin, B. Hewitson, C. Jack, C. Lennard and A. Favre."
+  image: climatedynamics.jpg
+  extra: "pp. 1-14, April 2013."
+
+- title: "Building Model Evaluation And Decision Support Capacity For CORDEX."
+  venue: "WMO Bulletin"
+  url:
+  attrib: "K. Whitehall, C. Mattmann, D. Waliser, J. Kim, C. Goodale, A. Hart, P. Ramirez, P. Zimdars, D. Crichton, G. Jenkins, C. Jones, G. Asrar, B. Hewitson."
+  image: wmobulletin.jpg
+  extra: "Vol. 61, No. 2, pp. 29-34, 2012."
+
+- title: Software and Architecture for Sharing Satellite Observations with the Climate Modeling Community
+  venue: IEEE Software
+  url: "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=6133265"
+  attrib: "D. Crichton, C. Mattmann, L. Cinquini, A. Braverman, D. Waliser, A. Hart, C. Goodale, P. Lean."
+  image: ieeeitrcmes.jpg
+  extra: "Vol.29, No. 5., September/October 2012, pp.63-71."
+
+- title: "Understanding Open Source Software at NASA"
+  venue: "IEEE IT Professional - Special Theme on NASA Contributions to IT"
+  url: "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=6109220"
+  attrib: "C. Mattmann, D. Crichton, A. Hart, S. Kelly, C. Goodale, R. R. Downs, P. Ramirez, J. S. Hughes, F. Lindsay."
+  image: nasait.png
+  extra: "Vol. 14, No. 2, p. 29-35, March/April 2012."
+
+- title: "Experiments with Storage and Preservation of NASA's Planetary Data via the Cloud"
+  venue: "IEEE IT Professional - Special Theme on Cloud Computing"
+  url: "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=5483284"
+  attrib: "C. Mattmann, D. Crichton, A. Hart, S. Kelly, J. S. Hughes."
+  image: itprofessional.jpg
+  extra: "Vol. 12, No. 5, pp. 28-35, September/October, 2010"
+
+- title: "An Open-source, Grid-based Software Framework for Management and Sharing of Pediatric Intensive Care Unit Data"
+  venue: "Journal of Critical Care"
+  url: "http://www.jccjournal.org/article/S0883-9441%2811%2900063-3/pdf"
+  attrib: "R. Wetzel, D. Crichton, C. Mattmann, A. Hart, D. Kale, R. Khemani, P. Ross, P. Vee, J. Terry."
+  image: "jcc.gif"
+  extra: "Vol. 26, No. 2, pp. e13-14, April, 2010."
+

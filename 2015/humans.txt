@@ -1,0 +1,22 @@
+/* andrewfhart.com */
+
+/* ABOUT */
+
+  Content:      Andrew Hart
+  Twitter:      @andrewfhart
+  Location:     Los Angeles, CA, USA
+
+
+/* SITE */
+
+  Language:     English
+  Built with:   Jekyll <http://jekyllrb.com>
+                Sublime Text 2 <http://www.sublimetext.com>
+                Krita <https://www.krita.org>
+                Grunt <http://gruntjs.com>
+                HTML Compressor <https://code.google.com/p/htmlcompressor>
+
+
+/* SPECIAL THANKS */
+
+  Michael Rose <https://github.com/mmistakes/made-mistakes-jekyll>

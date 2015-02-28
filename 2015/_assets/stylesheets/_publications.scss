@@ -1,0 +1,39 @@
+.publication {
+    
+    min-height: 180px;
+    margin-bottom:1em;
+
+    img.pub-teaser {
+        float:left;
+        padding:5px;
+        border:solid 1px #555;
+        margin-right:10px;
+    }
+
+    .pub-title {
+        font-weight:bold;
+    }
+
+    .pub-venue {
+        font-style:italic;
+    }
+
+    .pub-authors {
+        font-size: 90%;
+    }
+
+    .pub-extra {
+        font-size: 90%;
+    }
+}
+
+ul.publication-list {
+    list-style: none outside none;
+    margin-left:0px;
+    padding-left:0px;
+
+    li {
+        margin-left:0px;
+        padding-left:0px;
+    }
+}
