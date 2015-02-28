@@ -1,0 +1,41 @@
+link(rel='stylesheet', href='/stylesheets/pubs.css')
+
+
+.section
+
+  .row
+    .span12
+      ul.breadcrumb
+        li
+          a(href='/') Home 
+          span.divider /
+        li What I'm Reading Online
+
+  .row
+    .span4
+      .box
+        .well 
+          h3 Latest Reading
+          :markdown
+            This is a new section I've started to work on. I wanted to develop a curated collection 
+            of the articles and blogs I've recently read on various sites around the Web. 
+            For those who care about the technicalities, I have simply whipped up a 
+            small JavaScript bookmarklet that, when clicked, extracts the title
+            attribute of whatever tab I'm on, the URL, and the date and time, and
+            submits the data to this site, where it gets added as an entry in a MongoDB collection
+            I query to generate this page.
+          
+            At some point,  I might do something a bit more fancy 
+            like put a tag cloud in a box below, but I think 
+            I'll wait until I have more data to draw from.
+        
+    .span8
+      .box#reading
+        .well
+          ul.list.clean
+            each r in reading
+              label = r.title && r.title.length > 0 ? r.title : r.url
+              date  = new Date(r.time).toDateString()             
+              li
+                span #{date}: 
+                a(href=r.url) #{label} 

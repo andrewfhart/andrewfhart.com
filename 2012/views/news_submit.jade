@@ -1,0 +1,42 @@
+link(rel='stylesheet', href='/stylesheets/pubs.css')
+
+
+.section
+
+  .row
+    .span12
+      ul.breadcrumb
+        li
+          a(href='/') Home 
+          span.divider /
+        li News
+
+  .row
+    .span4
+      .box
+        h3 About News
+        :markdown
+          This form will submit a piece if interesting/noteworthy news that
+          will appear on the "latest activity" stream.
+  
+    .span8
+      .box
+        h3 Submit News
+          form(method='POST',action='/news/submit')
+            d = new Date();
+            curr_date = d.getDate();
+            curr_month = d.getMonth() + 1; //Months are zero based
+            curr_year = d.getFullYear();
+            autoDate = curr_year + "-" + curr_month + "-" + curr_date;
+            label Date:
+            input(type='text',name='date',value=autoDate)
+            label Link URL:
+            input(type='text',name='url',placeholder='Paste a link here...')
+            label Title:
+            input(type='text',name='title',placeholder='Choose a title...')
+            label Comment:
+            textarea(name='comment',placeholder='Add a comment here...')
+            label Tags:
+            input(type='text',name='tags',placeholder='Add comma-separated tags here')
+            input.btn(type='submit',value='Submit!')
+
