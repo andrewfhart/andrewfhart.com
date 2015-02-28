@@ -1,0 +1,131 @@
+Cloud Computing and Virtualization Within the Regional Climate Model and Evaluation System. Earth Science Informatics
+
+  
+Evaluation of the surface climatology over the conterminous United States in the North American Regional Climate Change Assessment Program hindmost experiment using regional climate model evaluation system. Journal of Climate
+
+Evaluation of the CORDEX- Africa multi-RCM Hindcast: Systematic Model Errors. Climate Dynamics
+
+  
+
+Building Model Evaluation And Decision Support Capacity For CORDEX. WMO Bulletin
+
+IEEE IT Professional 
+
+Software and Architecture for Sharing Satellite Observations with the Climate Modeling Community. IEEE Software
+
+
+IEEE IT Professional 
+Understanding Open Source Software at NASA. IEEE IT Professional - Special Theme on NASA Contributions to 
+
+
+IEEE IT Professional
+Experiments with Storage and Preservation of NASA's Planetary Data via the Cloud. IEEE IT Professional - Special Theme on Cloud Computing
+
+Journal of Critical Care
+
+An Open-source, Grid-based Software Framework for Management and Sharing of Pediatric Intensive Care Unit Data. Journal of Critical Care,
+
+Scalable Data Mining, Archiving and Big Data Management for the Next Generation Astronomical Telescopes. Big Data Man- agement, Technologies, and Applications. 
+
+
+Programming Hive
+
+NASA Jet Propulsion Laboratory - The Regional Climate Model Evaluation System. In Programming Hive. 
+
+Data Intensive Computing , 
+ 
+Architecting Data-Intensive Systems. In Handbook of Data Intensive Computing, 
+
+Guide to E-science 
+A Multi-Disciplinary, Model-Driven, Distributed Science Data System Architecture. In Guide to e-Science: Next Generation Scientific Research and Discovery
+
+  
+Time-Bound Analytic Tasks on Large Datasets through Dynamic Configuration of Workflows. Submitted to 8th  On Workflows in Support of Large-Scale Science 
+
+  
+ 
+Model Errors in Precipitation, Surface Insolation and Cloudiness in the NARCCAP Hindcast Experiment. the  American Meteorological Society 
+
+Developing an Open Source, Reusable Platform for Distributed Collaborative Information Management in the Early Detection Research Network.  IEEE International Information Reuse and Integration
+
+ 
+Developing an Open Source Strategy for NASA Earth Science Data Systems. IEEE Information Reuse and Integration
+
+
+Biospecimen Data Management for Collaborative Research in Early Detection of Cancer. the  Annual Biospecimen Research Network
+  
+ 
+A Reusable Framework for Regional Climate Model Evaluation. Abstract IN21D-07 presented at
+
+ 
+Rapid and Effective Construction of Science Data Archives and Repositories using the OODT Process Control System. 
+
+Scalable Data Mining and Archiving for the Square Kilometre Array. 
+
+A Virtual Science Data Environment for Carbon Dioxide Observations. 
+
+Leveraging Open Source Technologies to Build Scientific Data Systems.
+
+  
+ 
+Evaluation of the multi-model CORDEX-Africa hindcast using RCMES. 
+
+
+A Regional Climate Model Evaluation System based on contemporary Satellite and other Observations for Assessing Regional Climate Model Fidelity. 
+
+
+  
+Building a Snow Data System on the Apache OODT Open Technology Stack. Abstract IN31A-1434 presented at
+
+
+SKA Data Archiving using Apache OODT. Proceedings of SKA : The International Square Kilometre Array Forum: Science and Frontiers of Astronomy in the Era of Massive Datasets: The Promise and Challenges
+
+A Regional Climate Model Evaluation System based on Satellite and other Observations for Application to CMIP-IPCC/AR Downscaling. the World Climate Research Program
+
+  
+Evaluation of the multiple-model CORDEX-Africa hindcast experiment using the RCMES. the World Climate Research Program
+
+
+     
+An Informatics Architecture for the Virtual Pediatric Intensive Care Unit. the 24th IEEE International Symposium on Computer-Based Medical Systems
+
+ 
+Integrating Biospecimen Data into the EDRN Public Portal.  Annual Biospecimen Research Network (BRN)
+
+
+ A Cloud-Enabled Regional Climate Model Evaluation System. the ICSE   on Software Engineering for Cloud Computing 
+
+ A Regional Climate Model Evaluation System based on Satellite and other Observations for Application to CMIP/AR Downscaling. 91st American Meteorological Society Annual 
+ 
+A Regional Climate Model Evaluation System based on Satellite and other Observations. 
+
+Using Remote Sensing for Water Resource Management. 
+
+Distributed, Modular Grid Software for Data Management and Exploration of Patient-Centric Healthcare IT Information. the O'Reilly Open Source Convention (OSCON) - Special Session on Healthcare Technology, 
+
+    
+An Open Source, Grid-based Software Framework for Management and Sharing of Pediatric ICU Data. the 9th International Conference on Complexity in Acute Illness.
+
+
+The eCAS Model for Scientific Data Warehousing of Biomarker Data and Curation of EDRN Cancer Biomarker Research.
+
+
+Providing Integrated Access to Scientific Information and Knowledge in Cancer Biomarker Research. the 6th EDRN Scientific 
+
+Enabling Effective Curation of Cancer Biomarker Research Data. the 22nd IEEE International Symposium on Computer-Based Medical Systems (CBMS)
+
+A Distributed Bronchial Mapping Software Tool for the Tracking of Cellular, Molecular and Imaging Results in the Central Airways. the 13th IASLC World Conference on Lung Cancer,
+
+ 
+A Reusable Process Control System Framework for the Orbiting Carbon Observatory and NPP Sounder PEATE missions. the 3rd IEEE Intl. Conference on Space Mission Challenges for Information Technology
+
+ 
+An Extensible Biomarker Curation Approach and Software Infrastructure for the Early Detection of Cancer. the IEEE Intl. Conference on Health Informatic
+
+
+A Web-based Data Management Infrastructure for Curation, Annotation and Dissemination of Biomarker Research results for the Early Detection of Cancer. the 5th EDRN Scientific
+
+
+A Distributed Informatics Knowledge Environment for Biomarker Research. the 5th EDRN Scientific
+
+A Distributed Biomarker Atlas for Lung Research aiding the Discovery and Early Detection of Cancer Biomarkers. the 5th EDRN Scientific

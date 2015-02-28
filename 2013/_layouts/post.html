@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title> {{ page.title }} </title>
+    
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/stylesheets/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/stylesheets/posts.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/stylesheets/pygment_trac.css"/>
+
+  </head>
+  <body class="single single-post single-format-standard">
+    
+    {% include site-header.html %}
+    
+	<div id="page-wrapper">
+        <div id="page" class="hfeed site">
+        	<div id="main" class="wrapper">
+	            <div id="primary" class="site-content">
+	                <nav id="sub-navigation" role="navigation" class="pinned always-pinned">
+                        <div class="menu-community-container">
+                            <ul id="subnav" class="inner-content bold-font">
+                                <li id="menu-item-travel" class="menu-item menu-item-type-taxonomy menu-item-object-category">
+                                    <a href="#">Travel</a></li>
+                                <li id="menu-item-oss" class="menu-item menu-item-type-taxonomy menu-item-object-category">
+                                    <a href="#">Open Source Software</a></li>
+                                <li id="menu-item-ramblings" class="menu-item menu-item-type-taxonomy menu-item-object-category">
+                                    <a href="#">Ramblings</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+	
+		            <div id="content" role="main">
+			            <div class="content-wrapper">
+                			<div class="inner-content">
+                    			<div class="content-container">
+                    			    <div class="post-page">
+                    			    
+                    			        <h1 class="title">{{ page.title }}</h1>
+                    			        {{ page.date }}
+                    			        <div class="tags">
+                    			        {{ page.tags | array_to_sentence_string }}
+                    			        </div>
+                        			    {{ content }}
+                        			    
+                    			    
+                    			    </div>
+                    			</div><!-- end .content-container -->
+                    		</div><!-- end .inner-content -->
+                    	</div><!-- end .content-wrapper -->
+                    </div><!-- end #content -->
+                </div><!-- end #primary -->
+            </div><!-- end #main -->
+        </div><!-- end #page -->
+    </div><!-- end #page-wrapper -->
+
