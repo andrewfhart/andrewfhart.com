@@ -1,0 +1,27 @@
+- title: "Scalable Data Mining, Archiving and Big Data Management for the Next Generation Astronomical Telescopes."
+  venue: "Big Data Management, Technologies, and Applications"
+  url:
+  attrib: "C. Mattmann, A. Hart, L. Cinquini, J. Lazio, S. Khudikyan, D. Jones, R. Preston, T. Bennett, B. Butler, D. Harland, B. Glendenning, J. Kern, J. Robnett."
+  image: bigdatamgmt.png
+  extra: "W. Hu, N. Kaabouch, eds. IGI Global, 2013."
+
+- title: "NASA Jet Propulsion Laboratory - The Regional Climate Model Evaluation System."
+  venue: "Programming Hive"
+  url:
+  attrib: "C. Mattmann, P. Zimdars, C. Goodale, A. Hart, J. Kim, D. Waliser, P. Lean"
+  image: hive.s.gif
+  extra: "E. Capriolo, D. Wampler, J. Rutherglen, eds. 1st edition. O'Reilly Media, Inc. pp. 287-291, October, 2012."
+
+- title: "Architecting Data Intensive Systems."
+  venue: "Handbook of Data Intensive Computing."
+  url:
+  attrib: "C. Mattmann, D. Crichton, A. Hart, C. Goodale, J. S. Hughes, S. Kelly, L. Cinquini, T. H. Painter, J. Lazio, D. Waliser, N. Medvidovic, J. Kim, P. Lean"
+  image: dataintensive.jpg
+  extra: "B. Furht, A. Escalante, eds. 1st Edition. Springer Verlag, 2011."
+
+- title: "A Multi-Disciplinary, Model-Driven, Distributed Science Data System Architecture."
+  venue: "Guide to e-Science: Next Generation Scientific Research and Discovery."
+  url:
+  attrib: "D. Crichton, C. Mattmann, J. S. Hughes, S. Kelly, and A. Hart."
+  image: escience.jpg
+  extra: "X. Yang, L. L. Wang, W. Jie, eds. 1st Edition. XVIII, 558 p. 184 illus., Springer Verlag, ISBN 978-0-85729-438-8, 2011."
