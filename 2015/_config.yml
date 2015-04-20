@@ -6,7 +6,7 @@ description: "Personal website of Andrew F. Hart."
 logo: site-logo.png
 teaser: default-teaser.png
 locale: en_US
-url: 
+url:
 
 
 # Jekyll configuration
@@ -62,20 +62,20 @@ owner:
   instagram: andrewfhart
   tumblr: andrewfhart
   google:
-    ad-client: 
-    ad-slot: 
-    analytics: 
+    ad-client:
+    ad-slot:
+    analytics:
     plus:
     verify:
   bing:
-    verify: 
+    verify:
   alexa:
-    verify: 
+    verify:
   yandex:
-    verify: 
+    verify:
   bio: "Software Engineer, Entrepreneur, Photographer, Dreamer"
   avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname: 
+disqus-shortname:
 
 
 # Collections
