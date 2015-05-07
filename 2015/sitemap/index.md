@@ -2,7 +2,7 @@
 layout: archive
 title: "Sitemap"
 date: 2014-12-26
-modified: 
+modified:
 excerpt: "A visual sitemap of mademistakes.com"
 ---
 
@@ -34,8 +34,8 @@ excerpt: "A visual sitemap of mademistakes.com"
         </li>
         <li><a href="{{ site.url }}/tag/">Archives by Tag</a>
           <ul>
-            {% assign tags_list = site.tags | sort %}  
-            {% for tag in tags_list %} 
+            {% assign tags_list = site.tags | sort %}
+            {% for tag in tags_list %}
               <li><a href="{{ site.url }}/tag/{{ tag[0] | replace:' ','-' | downcase }}/">{{ tag[0] }}</a></li>
             {% endfor %}
           </ul>
@@ -45,27 +45,6 @@ excerpt: "A visual sitemap of mademistakes.com"
     <li><a href="{{ site.url }}/articles/">Articles</a>
       <ul>
         {% for post in site.categories.articles %}
-          {% include post-list.html %}
-        {% endfor %}
-      </ul>
-    </li>
-    <li><a href="{{ site.url }}/mastering-paper/">Mastering Paper</a>
-      <ul>
-        {% for post in site.categories.mastering-paper %}
-          {% include post-list.html %}
-        {% endfor %}
-      </ul>
-    </li>
-    <li><a href="{{ site.url }}/paperfaces/">PaperFaces</a>
-      <ul>
-        {% for post in site.categories.paperfaces %}
-          {% include post-list.html %}
-        {% endfor %}
-      </ul>
-    </li>
-    <li><a href="{{ site.url }}/work/">Work</a>
-      <ul>
-        {% for post in site.categories.work %}
           {% include post-list.html %}
         {% endfor %}
       </ul>

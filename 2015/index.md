@@ -1,8 +1,7 @@
 ---
-layout: archive
+layout: cover
 permalink: /
-title: "Andrew F. Hart"
-excerpt: "I speak data, fluently."
+title: "Welcome!"
 image:
   feature: home-feature.jpg
 id: home

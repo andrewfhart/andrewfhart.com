@@ -1,8 +1,8 @@
 # Site navigation links
 
-- title: Articles
-  url: /articles/
-  excerpt: "A collection of thoughts, ideas, observations and other misc."
+- title: About
+  url: /about/
+  excerpt: "Understated, yet passionate. Learn more about me and this site."
   image: 225x150.jpg
 
 - title: Pubs
@@ -15,12 +15,14 @@
   excerpt: "A portfolio of projects I've worked on."
   image: 225x150.jpg
 
+- title: Articles
+  url: /articles/
+  excerpt: "A collection of thoughts, ideas, observations and other misc."
+  image: 225x150.jpg
+
 - title: Photos
   url: /photos/
   excerpt: "My other passion, after software and data."
   image: 225x150.jpg
 
-- title: About
-  url: /about/
-  excerpt: "Understated, yet passionate. Learn more about me and this site."
-  image: 225x150.jpg
+
