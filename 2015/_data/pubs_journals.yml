@@ -1,13 +1,42 @@
+- title: "A Framework for Collaborative Review of Candidate Events in High Data Rate Streams: The V-FASTR Experiment as a Case Study."
+  venue: Astrophysical Journal
+  url: http://iopscience.iop.org/1538-3881/149/1/23
+  attrib: "A. F. Hart, L. Cinquini, S. Khudikyan, D. G. Thompson, C. Mattmann, K. Wagstaff, J. Lazio, D. Jones."
+  image: apj.jpg
+  extra: "January, 2015"
+
+- title: Exploring a graph theory based algorithm for automated identification and characterization of large mesoscale convective systems in satellite datasets.
+  venue: Earth Science Informatics
+  url: http://link.springer.com/article/10.1007/s12145-014-0181-3
+  attrib: "K. Whitehall, C. Mattmann, G. Jenkins, M. Rwebangira, B. Demoz, D. Waliser, P. Zimdars, C. Goodale, A. Hart, P. Ramirez, M. Joyce, M. Boustani, P. Loikith, H. Lee."
+  image: earthsciinformatics.jpg
+  extra: "October, 2014"
+
+- title: Supporting Distributed, Collaborative Review and Classification of Fast Transient Events.
+  venue: "IEEE Computer - Special Issue on Computing in Astronomy"
+  url: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6898785"
+  attrib: "A. Hart, S. Khudikyan, L. Cinquini, D. Thompson, C. Mattmann, K. Wagstaff, J. Lazio, and D. Jones."
+  image: ieeecomputer.t.jpg
+  extra: "September, 2014"
+
+- title: Model Evaluation Using the NASA Regional Climate Model Evaluation System (RCMES).
+  venue: IEEE Earthzine
+  url: "http://earthzine.org/2013/12/02/model-evaluation-using-the-nasa-regional-climate-model-evaluation-system-rcmes/"
+  attrib: "C. Mattmann, D. Waliser, J. Kim, P. Ramirez, C. Goodale, A. Hart, P. Loikith, H. Lee, M. Joyce, M. Boustani, S. Khudikyan, K. Whitehall, J. Whittell, P. Zimdars, D. Crichton, Y. Gil, L. Cinquini."
+  image: earthzine.t.png
+  extra: "December 2, 2013"
+
+
 - title: Cloud Computing and Virtualization Within the Regional Climate Model and Evaluation System.
   venue: Earth Science Informatics
-  url: 
+  url: http://link.springer.com/article/10.1007%2Fs12145-013-0126-2
   attrib: "C. Mattmann, D. Waliser, J. Kim, C. Goodale, A. Hart, P. Ramirez, D. Crichton, P. Zimdars, M. Boustani, H. Lee, P. Loikith, K. Whitehall, C. Jack, B. Hewitson."
   image: earthsciinformatics.jpg
   extra: "July, 2013"
 
 - title: Evaluation of the surface climatology over the conterminous United States in the North American Regional Climate Change Assessment Program hindmost experiment using regional climate model evaluation system.
   venue: Journal of Climate
-  url:
+  url: http://dx.doi.org/10.1175/JCLI-D-12-00452.1
   attrib: "J. Kim, D. Waliser, C. Mattmann, L. Mearns, C. Goodale, A. Hart, D. Crichton, S. McGinnis, M. Boustani, H. Lee, P. C. Loikith and M. Boustani."
   image: journalclimate.jpg
   extra: Volume 26 Issue 15. August 2013.
@@ -21,7 +50,7 @@
 
 - title: "Building Model Evaluation And Decision Support Capacity For CORDEX."
   venue: "WMO Bulletin"
-  url:
+  url: http://www.wmo.int/pages/publications/bulletin_en/61_2_cordex_en.html
   attrib: "K. Whitehall, C. Mattmann, D. Waliser, J. Kim, C. Goodale, A. Hart, P. Ramirez, P. Zimdars, D. Crichton, G. Jenkins, C. Jones, G. Asrar, B. Hewitson."
   image: wmobulletin.jpg
   extra: "Vol. 61, No. 2, pp. 29-34, 2012."
