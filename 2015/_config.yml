@@ -1,0 +1,13 @@
+# Site settings
+title: andrewfhart.com
+email: hello@andrewfhart.com
+description: > # this means to ignore newlines until "baseurl:"
+  Andrew F. Hart is an entrepreneur, software
+  engineer, and photographer living and working in Los Angeles, California.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:4000" # the base hostname & protocol for your site
+twitter_username: andrewfhart
+github_username:  andrewfhart
+
+# Build settings
+markdown: kramdown
