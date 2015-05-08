@@ -1,0 +1,112 @@
+- title: "Evaluation of the Sufrace Climate Data in the NARCCAP Hindcast Experiment."
+  venue: "Proceedings of the 2013 American Meteorological Society (AMS) meeting"
+  url:
+  attrib: "J. Kim, D. E. Waliser, C. Mattmann, L. Mearns, C. Goodale, A. Hart, D. Crichton, S. McGinnis."
+  extra: "Austin, TX, January 6-10, 2013."
+
+- title: "Developing an Open Source, Reusable Platform for Distributed Collaborative Information Management in the Early Detection Research Network."
+  venue: "Proceedings of the 13th IEEE International Conference on Information Reuse and Integration"
+  url:
+  attrib: "A. Hart, R. Verma, C. Mattmann, D. Crichton, S. Kelly, H. Kincaid, J. S. Hughes, P. Ramirez. C. Goodale, K. Anton, M. Colbert, R. Downs, C. Patriotis, and S. Srivastava."
+  extra: "Las Vegas, NV, August 8-10, 2012."
+
+- title: "Biospecimen Data Management for Collaborative Research in Early Detection of Cancer."
+  venue: "In Proceedings of the 2012 Annual Biospecimen Research Network (BRN) Symposium"
+  url:
+  attrib: "A. Hart, C. Mattmann, R. Verma, D. Crichton, K. Anton, H. Kincaid, C. Patriotis, S. Srivastava."
+  extra: "Bethesda, MD, February 22-23, 2012."
+
+- title: "A Reusable Framework for Regional Climate Model Evaluation."
+  venue: "Proceedings of the 2011 American Geophysical Union Fall Meeting"
+  url:
+  attrib: "A. Hart, C. Goodale, C. Mattmann, P. Lean, J. Kim, P. Zimdars, D. Waliser, D. Crichton."
+  extra: "Abstract IN21D-07, San Francisco, CA, December 5-9, 2011."
+
+- title: "Rapid and Effective Construction of Science Data Archives and Repositories using the OODT Process Control System."
+  venue: "Proceedings of the 2011 American Geophysical Union Fall Meeting"
+  url:
+  attrib: "C. Mattmann, D. Crichton, J. S. Hughes, P. Ramirez, S. Hardman, A. Hart, C. Goodale."
+  extra: "Abstract IN51D-01, San Francisco, CA, December 5-9, 2011."
+
+- title: "Scalable Data Mining and Archiving for the Square Kilometre Array."
+  venue: "Proceedings of the 2011 American Geophysical Union Fall Meeting"
+  url:
+  attrib: "D. Jones, C. Mattmann, A. Hart, J. Lazio, T. Bennett, K. Wagstaff, D. Thompson, R. Preston."
+  extra: "Abstract IN23B-1456, San Francisco, CA, December 5-9, 2011."
+
+- title: "A Virtual Science Data Environment for Carbon Dioxide Observations."
+  venue: "Proceedings of the 2011 American Geophysical Union Fall Meeting"
+  url:
+  attrib: "R. Verma, C. Goodale, A. Hart, E. Law, D. Crichton, C. Mattmann, M. Gunson, A. Braverman, H. Nguyen, A. Aldering, B. Castano, G. Osterman."
+  extra: "Abstract IN33B-1486, San Francisco, CA, December 5-9, 2011."
+
+- title: " Leveraging Open Source Technologies to Build Scientific Data Systems."
+  venue: "Proceedings of the 2011 American Geophysical Union Fall Meeting"
+  url:
+  attrib: "D. Crichton, C. Mattmann, A. Hart, J. S. Hughes, S. Hardman, E. Law, S. Kelly."
+  extra: "Abstract IN21D-01, San Francisco, CA, December 5-9, 2011."
+
+- title: "Evaluation of the multi-model CORDEX-Africa hindcast using RCMES."
+  venue: "Proceedings of the 2011 American Geophysical Union Fall Meeting"
+  url:
+  attrib: "J. Kim, D. Waliser, P. Lean, C. Mattmann, C. Goodale, A. Hart, P. Zimdars, B. Hewitson, C. Jones."
+  extra: "Abstract A23C-0188, San Francisco, CA, December 5-9, 2011."
+
+- title: "A Regional Climate Model Evaluation System based on contemporary Satellite and other Observations for Assessing Regional Climate Model Fidelity."
+  venue: "Proceedings of the 2011 American Geophysical Union Fall Meeting"
+  url:
+  attrib: "D. Waliser, J. Kim, C. Mattmann, C. Goodale, A. Hart, P. Zimdars, P. Lean."
+  extra: "Abstract GC21E-01, San Francisco, CA, December 5-9, 2011."
+
+- title: "Building a Snow Data System on the Apache OODT Open Technology Stack."
+  venue: "Proceedings of the 2011 American Geophysical Union Fall Meeting"
+  url:
+  attrib: "C. Goodale, T.H. Painter, C. Mattmann, A. Hart, P. Ramirez, P. Zimdars, A. C. Bryant."
+  extra: "Abstract IN31A-1434, San Francisco, CA, December 5-9, 2011."
+
+- title: "SKA Data Archiving using Apache OODT"
+  venue: "Proceedings of SKA 2011: The International Square Kilometre Array Forum: Science and Frontiers of Astronomy in the Era of Massive Datasets: The Promise and Challenges"
+  url:
+  attrib: "C. Mattmann, A. Hart, D. Jones, R. Preston."
+  extra: "Banff, Canada, 4-8 July 2011."
+
+- title: "A Regional Climate Model Evaluation System based on Satellite and other Observations for Application to CMIP-IPCC/AR Downscaling."
+  venue: "Proceedings of the World Climate Research Program (WCRP) Meeting"
+  url:
+  attrib: "D. Waliser, P. Lean, J. Kim, C. Goodale, A. Hart, C. Mattmann, P. Zimdars."
+  extra: "Denver, CO, October 24-28, 2011."
+
+- title: "Evaluation of the multiple-model CORDEX-Africa hindcast experiment using the RCMES."
+  venue: "Proceedings of the World Climate Research Program (WCRP) Meeting"
+  url:
+  attrib: "J. Kim, D. Waliser, P. Lean, C. Mattmann, C. Goodale, A. Hart, P. Zimdars, B. Hewitson, C. Lennard , A. Favre , Colin Jones , G. Nikulin."
+  extra: "Denver, CO, October 24-28, 2011."
+
+- title: "An Informatics Architecture for the Virtual Pediatric Intensive Care Unit."
+  venue: "Proceedings of the 24th IEEE International Symposium on Computer-Based Medical Systems (CBMS 2011)"
+  url:
+  attrib: "D. Crichton, C. Mattmann, A. Hart, D. Kale, R. Khemani, P. Ross, S. Rubin, P. Veeravatanayothin, R. C. Wetzel, A. Braverman, C. Goodale."
+  extra: "Bristol, UK, June 27-30, 2011."
+
+- title: "Integrating Biospecimen Data into the EDRN Public Portal."
+  venue: "Proceedings of the 2011 Annual Biospecimen Research Network (BRN) Symposium"
+  url:
+  attrib: "A. Hart, S. Kelly, D. Crichton, M. Thornquist, H. Kincaid, C. Mattmann, S. Reid, G. Warnick, P. Lin, C. Patriotis, S. Srivastava."
+  extra: "Bethesda, MD, March 28-29, 2011."
+
+- title: "A Cloud-Enabled Regional Climate Model Evaluation System."
+  venue: "Proceedings of the ICSE 2011 Workshop on Software Engineering for Cloud Computing - SECLOUD"
+  url:
+  attrib: "A. Hart, C. Goodale, C. Mattmann, P. Zimdars, D. Crichton, P. Lean, J. Kim, and D. Waliser."
+  extra: "Honolulu, HI, May 22, 2011."
+
+- title: "A Regional Climate Model Evaluation System based on Satellite and other Observations for Application to CMIP/AR Downscaling."
+  venue: "Proceedings of the 91st American Meteorological Society Annual Meeting"
+  url:
+  attrib: "P. Lean, J. Kim, D. E. Waliser, A. Hall, C. Mattman, S. L. Granger, K. Case, C. Goodale, A. Hart, B. Guan, N. Molotch, and S. Kaki."
+  extra: "Seattle, WA, Jan. 23-27, 2011."
+
+
+
+
+

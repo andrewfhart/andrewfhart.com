@@ -1,0 +1,76 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: 'Open Sans', sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #ffffff;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$white-color:      #ffffff;
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          500px;
+$on-laptop:        800px;
+
+$red-l2-color:     #ba7e7e;
+$red-l1-color:     #b96363;
+$red-md-color:     #bc4949;
+$red-d1-color:     #b82727;
+$red-d2-color:     #b70b0b;
+
+$blue-l2-color:     #e3eaea;
+$blue-l1-color:     #dddddd;
+$blue-md-color:     #bbbbbb;
+$blue-d1-color:     #459c9c;
+$blue-d2-color:     #249191;
+$blue-text-color:   darken($blue-d2-color, 30%);
+
+$orange-l2-color:     #fbe0cb;
+$orange-l1-color:     #ffc493;
+$orange-md-color:     #f19950;
+$orange-d1-color:     #ff7e14;
+$orange-d2-color:     #f06d00;
+
+$green-l2-color:     #79ad79;
+$green-l1-color:     #57a157;
+$green-md-color:     #369336;
+$green-d1-color:     #1c851c;
+$green-d2-color:     #057905;
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting",
+        "afh"
+;

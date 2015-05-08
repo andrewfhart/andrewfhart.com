@@ -1,0 +1,19 @@
+---
+layout: page
+---
+<div class="row">
+  <div id="project_description" class="col-xs-12 col-md-6 col-lg-6">
+    {{ content }}
+  </div>
+  <div id="project_images" class="col-xs-12 col-md-6 col-lg-6">
+
+    {% capture project %}projects_{{ page.images }}{% endcapture %}
+    <ul class="menu-item publication-list">
+    {% for item in site.data[project] %}<li>
+        <div class="publication">
+            {% if item.image %}<img src="{{ item.image }}" alt="">{% endif %}
+        </div>
+    </li>{% endfor %}
+  </ul>
+  </div>
+</div>

@@ -1,0 +1,266 @@
+.site-header {
+  padding-left:0px;
+  padding-right:0px;
+  margin-bottom:18px;
+}
+a.site-title {
+  font-family: 'Bree Serif', serif;
+}
+
+h2, h3 {
+  font-family: 'Bree Serif', serif;
+  margin-top:15px;
+  margin-bottom:20px;
+}
+
+#coverpic {
+    border-radius:5px;
+    height:200px;
+    margin-left:20px;
+    margin-right:auto;
+    margin-bottom:15px;
+    display:block;
+}
+
+.serify {
+  font-family: 'Bree Serif', serif;
+}
+
+.bigger {
+  font-size: 120%;
+}
+
+.social-links {
+  letter-spacing:1em;
+  text-align:center;
+  border-top: solid 1px $grey-color-light;
+  padding-top:1.5em;
+  padding-bottom:1em;
+  width:100%;
+  @include media-query($on-palm) {
+    width:100%;
+    letter-spacing:0.8em;
+  }
+}
+
+.section-teasers {
+
+  .section-teaser {
+    margin: 0px 0px 18px 0px;
+    padding:10px;
+    min-height:80px;
+    border-top: solid 4px #999999;
+    border-radius: 5px;
+
+    @include media-query($on-laptop) {
+      margin:18px 0px 18px 0px;
+      padding-top:30px;
+      min-height:230px;
+    }
+
+  }
+
+  h3 {
+    font-family: 'Bree Serif', serif;
+    color: $white-color;
+    margin: 0px 0px 5px 0px;
+    padding:0px 0px 5px 0px;
+    border-bottom: solid 2px;
+
+    a {
+      font-weight:normal;
+    }
+  }
+
+  a {
+      font-weight: bold;
+      color: $white-color;
+  }
+
+  img {
+    border:solid 1px $white-color;
+    /*         offset-x offset-y blur-radius color */
+    box-shadow:2px 2px 4px $grey-color-dark;
+  }
+
+  .about {
+    background-color: $blue-md-color;
+    border-top-color: #879b5e;
+    color: $blue-text-color;
+    h3 {
+      color: $white-color;
+      border-bottom-color: $blue-l1-color;
+    }
+  }
+
+  .publications {
+    background-color: $blue-md-color;
+    border-top-color: #44cae3;
+    h3 {
+      color: $white-color;
+      border-bottom-color: $blue-l1-color;
+    }
+  }
+
+  .projects {
+    background-color: $blue-md-color;
+    border-top-color: #545454;
+    h3 {
+      color: $white-color;
+      border-bottom-color: $blue-l1-color;
+    }
+  }
+}
+
+.contact {
+  h3 {
+    border-bottom-color: $blue-l1-color;
+  }
+  img.media-object {
+    border: solid 1px $grey-color-light;
+    box-shadow:1px 1px 5px $grey-color;
+    margin-right:10px;
+  }
+}
+
+img.publications-cover {
+  border-top:solid 1px $grey-color-light;
+  border-bottom:solid 1px $grey-color-light;
+  margin-bottom:10px;
+}
+
+.publications {
+  margin-bottom:15px;
+  border-bottom: solid 1px $grey-color-light;
+  blockquote {
+    margin:20px 0px;
+  }
+}
+
+.publication {
+
+    min-height: 180px;
+    margin-bottom:0.2em;
+
+    img.pub-teaser {
+        float:left;
+        padding:5px;
+        border:solid 1px #555;
+        margin-right:10px;
+        max-height:150px;
+    }
+
+    .pub-title {
+        font-weight:bold;
+        font-size:90%;
+    }
+
+    .pub-venue {
+        font-style:italic;
+    }
+
+    .pub-authors {
+        font-size: 80%;
+    }
+
+    .pub-extra {
+        font-size: 90%;
+    }
+}
+
+.publication.no-image {
+  min-height:60px;
+  margin-bottom:1em;
+}
+
+ul.publication-list {
+    list-style: none outside none;
+    margin-left:0px;
+    padding-left:0px;
+
+    li {
+        margin-left:0px;
+        padding-left:0px;
+    }
+}
+
+#coverpic {
+    float:right;
+}
+
+#photos {
+
+  img {
+
+  }
+
+  .photo {
+    width:25%;
+    margin-bottom:15px;
+    @include media-query($on-palm) {
+      width:100%;
+      margin-left:auto;
+      margin-right:auto;
+    }
+  }
+
+}
+
+#current-activity {
+  img {
+    float:left;
+    width:120px;
+    margin-right:10px;
+    padding-right:12px;
+    border-right: solid 0px $grey-color-light;
+  }
+}
+
+#timeline {
+
+  h3 {
+    margin-top:0px;
+    padding-top:0px;
+  }
+
+  img {
+    float:left;
+    margin-right:5px;
+    padding-right:12px;
+    border-right: solid 1px $grey-color-light;
+  }
+
+  p {
+    margin-bottom:18px;
+  }
+}
+
+/* Projects --------------------------------- */
+
+#project_description {
+  em {
+    background-color: #ffd;
+    font-style:normal;
+  }
+}
+
+#project_images {
+  img {
+    margin-bottom: 18px;
+  }
+
+}
+
+.project-thumbnails .thumbnail {
+  min-height:450px;
+
+  img {
+    border-radius: 3px;
+    height:156px;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+  }
+  .caption {
+    padding-top:0px;
+  }
+}
