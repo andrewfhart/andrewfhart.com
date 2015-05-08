@@ -29,7 +29,7 @@ permalink: /publications/
   <ul class="menu-item publication-list">
     {% for pub in site.data.pubs_journals %}<li>
         <div class="publication">
-            {% if pub.image %}<img src="/images/publications/covers/{{ pub.image }}" alt="teaser" class="pub-teaser">{% endif %}
+            {% if pub.image %}<img src="/images/publications/covers/{{ pub.image }}" alt="cover" class="pub-teaser">{% endif %}
             <div class="title pub-title">{% if pub.url %}<a href="{{ pub.url }}" target="_new">{% endif %}{{ pub.title }}{% if pub.url %}</a>{% endif %}</div>
             <div class="title pub-venue">{{ pub.venue }}</div>
             <div class="excerpt pub-authors">Authors: {{ pub.attrib }}</div>
@@ -43,7 +43,7 @@ permalink: /publications/
   <ul class="menu-item publication-list">
     {% for pub in site.data.pubs_chapters %}<li>
         <div class="publication">
-            {% if pub.image %}<img src="/images/publications/covers/{{ pub.image }}" alt="teaser" class="pub-teaser">{% endif %}
+            {% if pub.image %}<img src="/images/publications/covers/{{ pub.image }}" alt="cover" class="pub-teaser">{% endif %}
             <div class="title pub-title">{% if pub.url %}<a href="{{ pub.url }}" target="_new">{% endif %}{{ pub.title }}{% if pub.url %}</a>{% endif %}</div>
             <div class="title pub-venue">{{ pub.venue }}</div>
             <div class="excerpt pub-authors">Authors: {{ pub.attrib }}</div>
@@ -57,7 +57,7 @@ permalink: /publications/
   <ul class="menu-item publication-list">
     {% for pub in site.data.pubs_conferences %}<li>
         <div class="publication no-image">
-            {% if pub.image %}<img src="/images/publications/covers/{{ pub.image }}" alt="teaser" class="pub-teaser">{% endif %}
+            {% if pub.image %}<img src="/images/publications/covers/{{ pub.image }}" alt="cover" class="pub-teaser">{% endif %}
             <div class="title pub-title">{% if pub.url %}<a href="{{ pub.url }}" target="_new">{% endif %}{{ pub.title }}{% if pub.url %}</a>{% endif %}</div>
             <div class="title pub-venue">{{ pub.venue }}</div>
             <div class="excerpt pub-authors">Authors: {{ pub.attrib }}</div>
