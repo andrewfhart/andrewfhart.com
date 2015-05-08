@@ -1,3 +1,15 @@
+- title: "24 hour near real time processing and computation for the JPL Airborne Snow Observatory."
+  venue: "Proceedings of the IEEE International Geoscience and Remote Sensing Symposium."
+  url:
+  attrib: "C. Mattmann, T. Painter, P. Ramirez, C. Goodale, A. F. hart, P. Zimdars, M. Boustani, S. Khudikyan, R. Verma, F. Seidel Caprez, J. Deems, A. Trangsrud, J. Boardman."
+  extra: "Quebec, Canada, July 13-18, 2014."
+
+- title: "Time-Bound Analytic Tasks on Large Datasets through Dynamic Configuration of Workflows."
+  venue: "Proceedings 8th Workshop On Workflows in Support of Large-Scale Science (WORKS 2013)."
+  url:
+  attrib: "Y. Gil, V. Ratnakar, R. Verma, A. Hart, P. Ramirez, C. Mattmann, S. Park, A. Sumarlidason."
+  extra: "Denver, CO, November 17, 2013."
+
 - title: "Evaluation of the Sufrace Climate Data in the NARCCAP Hindcast Experiment."
   venue: "Proceedings of the 2013 American Meteorological Society (AMS) meeting"
   url:
