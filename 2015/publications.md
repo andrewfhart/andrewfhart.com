@@ -52,6 +52,49 @@ permalink: /publications/
     </li>{% endfor %}
   </ul>
 
+### Technology Reports
+
+  <ul class="menu-item publication-list">
+    {% for pub in site.data.pubs_technicalreports %}<li>
+        <div class="publication no-image">
+            {% if pub.image %}<img src="/images/publications/covers/{{ pub.image }}" alt="cover" class="pub-teaser">{% endif %}
+            <div class="title pub-title">{% if pub.url %}<a href="{{ pub.url }}" target="_new">{% endif %}{{ pub.title }}{% if pub.url %}</a>{% endif %}</div>
+            <div class="title pub-venue">{{ pub.venue }}</div>
+            <div class="excerpt pub-authors">Authors: {{ pub.attrib }}</div>
+            <div class="excerpt pub-extra">{{ pub.extra }}</div>
+        </div>
+    </li>{% endfor %}
+  </ul>
+
+### Technical Articles
+
+  <ul class="menu-item publication-list">
+    {% for pub in site.data.pubs_technicalarticles %}<li>
+        <div class="publication no-image">
+            {% if pub.image %}<img src="/images/publications/covers/{{ pub.image }}" alt="cover" class="pub-teaser">{% endif %}
+            <div class="title pub-title">{% if pub.url %}<a href="{{ pub.url }}" target="_new">{% endif %}{{ pub.title }}{% if pub.url %}</a>{% endif %}</div>
+            <div class="title pub-venue">{{ pub.venue }}</div>
+            <div class="excerpt pub-authors">Authors: {{ pub.attrib }}</div>
+            <div class="excerpt pub-extra">{{ pub.extra }}</div>
+        </div>
+    </li>{% endfor %}
+  </ul>
+
+### Research Grants
+
+  <ul class="menu-item publication-list">
+    {% for pub in site.data.pubs_researchgrants %}<li>
+        <div class="publication no-image">
+            {% if pub.image %}<img src="/images/publications/covers/{{ pub.image }}" alt="cover" class="pub-teaser">{% endif %}
+            <div class="title pub-title">{% if pub.url %}<a href="{{ pub.url }}" target="_new">{% endif %}{{ pub.title }}{% if pub.url %}</a>{% endif %}</div>
+            <div class="title pub-venue">{{ pub.venue }}</div>
+            <div class="excerpt pub-authors">{{ pub.attrib }}</div>
+            <div class="excerpt pub-extra">{{ pub.extra }}</div>
+        </div>
+    </li>{% endfor %}
+  </ul>
+
+
 ### Refereed Conferences and Workshops
 
   <ul class="menu-item publication-list">
